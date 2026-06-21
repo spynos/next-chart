@@ -30,7 +30,7 @@
       "endpoints": [
         "https://github.com/spynos/next-chart/releases/latest/download/latest.json"
       ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQzOTUyMjVBOUI2RDAxMTIKUldRU0FXMmJXaUtWMDEzT0NqaVlQQjc5WUZoRFNZNUtwR3ZlVUhEbVowMWxUcXR4OXpJTWFycWgK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IERFOEYyMUJGOTQ3M0VEMDAKUldRQTdYT1V2eUdQM2dreFZSbTJYVDBSQ3BqaVBRWDVFMGtSMXg2NTFXdWFMM2VPY2Jsb1ZGeDUK"
     }
   },
   "bundle": {
