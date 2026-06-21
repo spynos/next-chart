@@ -1,6 +1,6 @@
 [package]
 name = "next-chart"
-version = "0.1.2"
+version = "0.1.3"
 description = "NextChart 전자차트 (전자서명 미지원·출력 관리형)"
 authors = ["NextChart"]
 edition = "2021"
