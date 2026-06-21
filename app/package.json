@@ -1,0 +1,38 @@
+{
+  "name": "next-chart",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "NextChart — 전자차트 (전자서명 미지원·출력 관리형, Windows/Mac 데스크톱)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:tamper": "node tests/tamper.mjs",
+    "test:couple": "node tests/couple.mjs",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-process": "^2.3.1",
+    "@tauri-apps/plugin-updater": "^2.10.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.3",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "playwright": "^1.61.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.6"
+  }
+}

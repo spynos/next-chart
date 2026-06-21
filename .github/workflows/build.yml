@@ -1,0 +1,68 @@
+# NextChart 데스크톱 빌드 + 업데이트 배포 (Windows / macOS).
+# v* 태그 푸시 시 각 OS 러너에서 빌드·서명·GitHub Release 게시까지 수행한다.
+# Tauri 업데이터용 latest.json + 서명(.sig)이 함께 업로드되어 사용자 확인형 자동 업데이트가 동작한다.
+#
+# 사전 준비(저장소 Settings → Secrets):
+#   TAURI_SIGNING_PRIVATE_KEY          : ~/.tauri/next-chart.key 내용
+#   TAURI_SIGNING_PRIVATE_KEY_PASSWORD : 키 비밀번호(없으면 빈 값)
+#   (선택) APPLE_* / WINDOWS_* 코드서명·공증 인증서
+name: build-desktop
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: windows-latest
+            args: ''
+          - platform: macos-latest
+            args: '--target aarch64-apple-darwin'
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin' || '' }}
+
+      - name: Cache cargo
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: app/src-tauri
+
+      - name: Install frontend deps
+        working-directory: app
+        run: npm install
+
+      # WebView2/MSVC는 windows-latest 러너에 기본 내장.
+      # 업데이터 아티팩트(.sig)는 TAURI_SIGNING_PRIVATE_KEY로 서명됨.
+      - name: Build, sign & release
+        uses: tauri-apps/tauri-action@v0
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          projectPath: app
+          args: ${{ matrix.args }}
+          tagName: ${{ github.ref_name }}
+          releaseName: 'NextChart ${{ github.ref_name }}'
+          releaseBody: '자동 생성된 릴리스. 데스크톱 앱에서 [백업] 화면 → 업데이트 확인.'
+          releaseDraft: true
+          prerelease: false
+          # latest.json(업데이터 매니페스트) 생성·업로드
+          includeUpdaterJson: true

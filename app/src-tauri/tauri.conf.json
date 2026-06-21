@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "NextChart",
+  "version": "0.1.0",
+  "identifier": "com.nextchart.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "NextChart — 전자차트",
+        "width": 1280,
+        "height": 860,
+        "minWidth": 960,
+        "minHeight": 640,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; connect-src 'self' ipc: http://ipc.localhost"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/OWNER/next-chart/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQzOTUyMjVBOUI2RDAxMTIKUldRU0FXMmJXaUtWMDEzT0NqaVlQQjc5WUZoRFNZNUtwR3ZlVUhEbVowMWxUcXR4OXpJTWFycWgK"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": true,
+    "category": "Medical",
+    "shortDescription": "NextChart 전자차트",
+    "longDescription": "전자서명을 지원하지 않는 출력 관리형 전자차트. 공식 진료기록부는 출력·자필서명한 종이이며, 본 앱과 로컬 DB는 작성을 돕는 보조 사본입니다. 완전 로컬 동작, 환자 데이터 외부 전송 없음.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

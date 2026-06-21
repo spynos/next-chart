@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "기본 권한 — 코어 + 업데이터/프로세스. 네트워크/파일시스템 등 외부 접근 플러그인 미사용(데이터 완전 로컬).",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "updater:default",
+    "process:default"
+  ]
+}

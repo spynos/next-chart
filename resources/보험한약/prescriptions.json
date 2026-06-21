@@ -1,0 +1,4189 @@
+{
+  "meta": {
+    "source": "보건복지부 고시 제2026-124호 「한약제제 급여목록 및 상한금액표」",
+    "currency": "KRW",
+    "count": 56,
+    "note": "reference_price=계행 기준가격(원). non_extracted=true는 석고·망초처럼 건조엑스 추출 없이 가루로 혼합. prescription_codes는 해당 처방으로 생산되는 혼합제제 처방코드(없으면 빈 배열)."
+  },
+  "prescriptions": [
+    {
+      "no": 1,
+      "name_hanja": "加味逍遙散",
+      "name_ko": "가미소요산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 3.75,
+          "price": 325.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 3.75,
+          "price": 105.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "목단피",
+          "name_hanja": "牧丹皮",
+          "amount_g": 3.75,
+          "price": 159.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "박하",
+          "name_hanja": "薄荷",
+          "amount_g": 1.88,
+          "price": 35.8,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 31.88,
+      "reference_price": 1263,
+      "prescription_codes": [
+        "2001M1APD",
+        "2001M1AXS"
+      ]
+    },
+    {
+      "no": 2,
+      "name_hanja": "葛根湯",
+      "name_ko": "갈근탕",
+      "source": "醫學入門",
+      "herbs": [
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 11.25,
+          "price": 236.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "마황",
+          "name_hanja": "麻黃",
+          "amount_g": 7.5,
+          "price": 112.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 5.63,
+          "price": 188.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "계지",
+          "name_hanja": "桂枝",
+          "amount_g": 3.75,
+          "price": 33.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3,
+          "price": 97.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 34.63,
+      "reference_price": 769,
+      "prescription_codes": [
+        "2002M1APD",
+        "2002M1ATB",
+        "2002M1AXS"
+      ]
+    },
+    {
+      "no": 3,
+      "name_hanja": "葛根解肌湯",
+      "name_ko": "갈근해기탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 3.75,
+          "price": 78.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 3.75,
+          "price": 325.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 3.75,
+          "price": 297.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "석고",
+          "name_hanja": "石膏",
+          "amount_g": 3.75,
+          "price": 64.6,
+          "non_extracted": true
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 3.75,
+          "price": 141.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 3.75,
+          "price": 120.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 3.75,
+          "price": 138.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 39.13,
+      "reference_price": 1605,
+      "prescription_codes": [
+        "2003M1APD"
+      ]
+    },
+    {
+      "no": 4,
+      "name_hanja": "九味羌活湯",
+      "name_ko": "구미강활탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 5.63,
+          "price": 446.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 5.63,
+          "price": 239,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 4.5,
+          "price": 167.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 4.5,
+          "price": 145.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 4.5,
+          "price": 191.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 4.5,
+          "price": 179.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 4.5,
+          "price": 122.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "세신",
+          "name_hanja": "細辛",
+          "amount_g": 1.88,
+          "price": 157.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 37.52,
+      "reference_price": 1709,
+      "prescription_codes": [
+        "2004M1APD",
+        "2004M1ATB",
+        "2004M1AXS"
+      ]
+    },
+    {
+      "no": 5,
+      "name_hanja": "芎蘇散",
+      "name_ko": "궁소산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "전호",
+          "name_hanja": "前胡",
+          "amount_g": 3.75,
+          "price": 158.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 3.75,
+          "price": 229.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3,
+          "price": 111.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3,
+          "price": 57,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3,
+          "price": 106.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3,
+          "price": 100.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 2.25,
+          "price": 52.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 1.88,
+          "price": 39.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.13,
+          "price": 36.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 30.01,
+      "reference_price": 1068,
+      "prescription_codes": []
+    },
+    {
+      "no": 6,
+      "name_hanja": "芎夏湯",
+      "name_ko": "궁하탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 1.88,
+          "price": 35.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "청피",
+          "name_hanja": "靑皮",
+          "amount_g": 1.88,
+          "price": 49,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 1.88,
+          "price": 50.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 0.94,
+          "price": 33.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 0.94,
+          "price": 30.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 2.5,
+          "price": 42.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 21.27,
+      "reference_price": 769,
+      "prescription_codes": [
+        "2006M1APD",
+        "2006M1ATB",
+        "2006M1AXS"
+      ]
+    },
+    {
+      "no": 7,
+      "name_hanja": "內消散",
+      "name_ko": "내소산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지실",
+          "name_hanja": "枳 實",
+          "amount_g": 3.75,
+          "price": 162.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "산사",
+          "name_hanja": "山 査",
+          "amount_g": 3.75,
+          "price": 97.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "신곡",
+          "name_hanja": "神 麯",
+          "amount_g": 3.75,
+          "price": 79.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "사인",
+          "name_hanja": "砂仁",
+          "amount_g": 3.75,
+          "price": 140.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "향부자",
+          "name_hanja": "香附子",
+          "amount_g": 3.75,
+          "price": 90.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "삼릉",
+          "name_hanja": "三稜",
+          "amount_g": 3.75,
+          "price": 77.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "아출",
+          "name_hanja": "莪朮",
+          "amount_g": 3.75,
+          "price": 77.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 3.75,
+          "price": 106.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 41.25,
+      "reference_price": 1290,
+      "prescription_codes": [
+        "2007M1APD",
+        "2007M1AXS"
+      ]
+    },
+    {
+      "no": 8,
+      "name_hanja": "當歸連翹飮",
+      "name_ko": "당귀연교음",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 2.63,
+          "price": 84.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 2.63,
+          "price": 89.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 2.63,
+          "price": 71.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 2.63,
+          "price": 97.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "연교",
+          "name_hanja": "連翹",
+          "amount_g": 2.63,
+          "price": 155.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 2.63,
+          "price": 111.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "형개",
+          "name_hanja": "荊芥",
+          "amount_g": 2.63,
+          "price": 62.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 2.63,
+          "price": 208.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 2.63,
+          "price": 104.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 2.63,
+          "price": 73.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 2.63,
+          "price": 71.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.63,
+          "price": 84.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "세신",
+          "name_hanja": "細辛",
+          "amount_g": 1.13,
+          "price": 94.8,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 32.69,
+      "reference_price": 1309,
+      "prescription_codes": []
+    },
+    {
+      "no": 9,
+      "name_hanja": "當歸六黃湯",
+      "name_ko": "당귀육황탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 7.5,
+          "price": 364.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 3.75,
+          "price": 101.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "숙지황",
+          "name_hanja": "熱地黃",
+          "amount_g": 3.75,
+          "price": 177.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황백",
+          "name_hanja": "黃栢",
+          "amount_g": 2.63,
+          "price": 67.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 2.63,
+          "price": 396.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 2.63,
+          "price": 104.5,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.64,
+      "reference_price": 1340,
+      "prescription_codes": []
+    },
+    {
+      "no": 10,
+      "name_hanja": "大柴胡湯",
+      "name_ko": "대시호탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 15,
+          "price": 1301.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 9.38,
+          "price": 373.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 9.38,
+          "price": 314,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 7.5,
+          "price": 234.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지실",
+          "name_hanja": "枳 實",
+          "amount_g": 5.63,
+          "price": 243.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 50.64,
+      "reference_price": 2727,
+      "prescription_codes": [
+        "2010M1APD",
+        "2010M1AXS"
+      ]
+    },
+    {
+      "no": 11,
+      "name_hanja": "大靑龍湯",
+      "name_ko": "대청룡탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "마황",
+          "name_hanja": "麻黃",
+          "amount_g": 11.25,
+          "price": 169.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "계지",
+          "name_hanja": "桂枝",
+          "amount_g": 7.5,
+          "price": 66.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "행인",
+          "name_hanja": "杏仁",
+          "amount_g": 5.63,
+          "price": 106.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "석고",
+          "name_hanja": "石膏",
+          "amount_g": 15,
+          "price": 258.4,
+          "non_extracted": true
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 46.63,
+      "reference_price": 823,
+      "prescription_codes": [
+        "2011M1APD"
+      ]
+    },
+    {
+      "no": 12,
+      "name_hanja": "大和中飮",
+      "name_ko": "대화중음",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "산사",
+          "name_hanja": "山 査",
+          "amount_g": 7.5,
+          "price": 195.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥아",
+          "name_hanja": "麥芽",
+          "amount_g": 7.5,
+          "price": 150.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 5.63,
+          "price": 106.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 5.63,
+          "price": 136.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "택사",
+          "name_hanja": "澤瀉",
+          "amount_g": 5.63,
+          "price": 152.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지실",
+          "name_hanja": "枳 實",
+          "amount_g": 3.75,
+          "price": 162.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "사인",
+          "name_hanja": "砂仁",
+          "amount_g": 1.88,
+          "price": 70,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 37.52,
+      "reference_price": 974,
+      "prescription_codes": [
+        "2012M1APD"
+      ]
+    },
+    {
+      "no": 13,
+      "name_hanja": "大黃牧丹皮湯",
+      "name_ko": "대황목단피탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "목단피",
+          "name_hanja": "牧丹皮",
+          "amount_g": 9.38,
+          "price": 397.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "도인",
+          "name_hanja": "桃仁",
+          "amount_g": 9.38,
+          "price": 285.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "괄루인",
+          "name_hanja": "栝樓仁",
+          "amount_g": 9.38,
+          "price": 161.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 5.63,
+          "price": 176,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "망초",
+          "name_hanja": "芒硝",
+          "amount_g": 5.63,
+          "price": 99.5,
+          "non_extracted": true
+        }
+      ],
+      "total_herb_g": 39.4,
+      "reference_price": 1120,
+      "prescription_codes": [
+        "2013M1APD"
+      ]
+    },
+    {
+      "no": 14,
+      "name_hanja": "桃仁承氣湯",
+      "name_ko": "도인승기탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 11.25,
+          "price": 351.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "도인",
+          "name_hanja": "桃仁",
+          "amount_g": 10,
+          "price": 304.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "계지",
+          "name_hanja": "桂枝",
+          "amount_g": 7.5,
+          "price": 66.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "망초",
+          "name_hanja": "芒硝",
+          "amount_g": 7.5,
+          "price": 132.5,
+          "non_extracted": true
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 40,
+      "reference_price": 976,
+      "prescription_codes": [
+        "2014M1APD"
+      ]
+    },
+    {
+      "no": 15,
+      "name_hanja": "半夏白朮天麻湯",
+      "name_ko": "반하백출천마탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 5.63,
+          "price": 388.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 5.63,
+          "price": 106.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥아",
+          "name_hanja": "麥芽",
+          "amount_g": 5.63,
+          "price": 113.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "신곡",
+          "name_hanja": "神 麯",
+          "amount_g": 3.75,
+          "price": 79.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 1.88,
+          "price": 79.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 1.88,
+          "price": 449.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 1.88,
+          "price": 90.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천마",
+          "name_hanja": "天麻",
+          "amount_g": 1.88,
+          "price": 318.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 1.88,
+          "price": 64.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "택사",
+          "name_hanja": "澤瀉",
+          "amount_g": 1.88,
+          "price": 50.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 1.13,
+          "price": 31.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황백",
+          "name_hanja": "黃栢",
+          "amount_g": 0.75,
+          "price": 19.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 2.5,
+          "price": 44.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 40.05,
+      "reference_price": 1971,
+      "prescription_codes": [
+        "2015M1APD",
+        "2015M1AXS"
+      ]
+    },
+    {
+      "no": 16,
+      "name_hanja": "半夏瀉心湯",
+      "name_ko": "반하사심탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 7.5,
+          "price": 518.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 5.63,
+          "price": 224,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 5.63,
+          "price": 1349.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 5.63,
+          "price": 182.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 3.75,
+          "price": 106.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 1.88,
+          "price": 283.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 33.52,
+      "reference_price": 2764,
+      "prescription_codes": [
+        "2016M1APD",
+        "2016M1AXS"
+      ]
+    },
+    {
+      "no": 17,
+      "name_hanja": "半夏厚朴湯",
+      "name_ko": "반하후박탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 7.5,
+          "price": 518.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 6,
+          "price": 203.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 4.5,
+          "price": 109.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 3,
+          "price": 70,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 3.5,
+          "price": 61.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.5,
+      "reference_price": 1038,
+      "prescription_codes": [
+        "2017M1APD",
+        "2017M1ATB"
+      ]
+    },
+    {
+      "no": 18,
+      "name_hanja": "白朮湯",
+      "name_ko": "백출탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 11.25,
+          "price": 398.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 5.63,
+          "price": 388.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 5.63,
+          "price": 107,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 5.63,
+          "price": 190.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "오미자",
+          "name_hanja": "五味子",
+          "amount_g": 5.63,
+          "price": 272.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 2.5,
+          "price": 44.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 38.15,
+      "reference_price": 1462,
+      "prescription_codes": [
+        "2018M1APD"
+      ]
+    },
+    {
+      "no": 19,
+      "name_hanja": "補中益氣湯",
+      "name_ko": "보중익기탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 5.63,
+          "price": 272.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 1.88,
+          "price": 63.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 1.88,
+          "price": 35.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 1.13,
+          "price": 42.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 1.13,
+          "price": 97.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 22.9,
+      "reference_price": 1667,
+      "prescription_codes": [
+        "2019M1APD",
+        "2019M1AXS"
+      ]
+    },
+    {
+      "no": 20,
+      "name_hanja": "補虛湯",
+      "name_ko": "보허탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 5.63,
+          "price": 1349.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 5.63,
+          "price": 199.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 3.75,
+          "price": 181.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.63,
+          "price": 84.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 30.39,
+      "reference_price": 2180,
+      "prescription_codes": [
+        "2020M1APD"
+      ]
+    },
+    {
+      "no": 21,
+      "name_hanja": "茯苓補心湯",
+      "name_ko": "복령보심탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 7.5,
+          "price": 251.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "숙지황",
+          "name_hanja": "熱地黃",
+          "amount_g": 5.63,
+          "price": 265.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 4.88,
+          "price": 166,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 2.63,
+          "price": 97.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 2.63,
+          "price": 88.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 2.63,
+          "price": 629.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 2.63,
+          "price": 181.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "전호",
+          "name_hanja": "前胡",
+          "amount_g": 2.63,
+          "price": 110.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 1.88,
+          "price": 35.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 1.88,
+          "price": 50.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 1.88,
+          "price": 69.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 1.88,
+          "price": 39.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 1.88,
+          "price": 43.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 2.5,
+          "price": 44.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 46.94,
+      "reference_price": 2209,
+      "prescription_codes": [
+        "2021M1APD"
+      ]
+    },
+    {
+      "no": 22,
+      "name_hanja": "不換金正氣散",
+      "name_ko": "불환금정기산",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 7.5,
+          "price": 319.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 3.75,
+          "price": 91.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "곽향",
+          "name_hanja": "藿香",
+          "amount_g": 3.75,
+          "price": 58.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 29.75,
+      "reference_price": 1023,
+      "prescription_codes": [
+        "2022M1APD",
+        "2022M1AXS"
+      ]
+    },
+    {
+      "no": 23,
+      "name_hanja": "蔘蘇飮",
+      "name_ko": "삼소음",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 3.75,
+          "price": 87.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "전호",
+          "name_hanja": "前胡",
+          "amount_g": 3.75,
+          "price": 158.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 3.75,
+          "price": 78.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 2.81,
+          "price": 53.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 2.81,
+          "price": 104,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 2.81,
+          "price": 76.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.81,
+          "price": 91,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 37.24,
+      "reference_price": 2039,
+      "prescription_codes": [
+        "2023M1APD",
+        "2023M1ATB",
+        "2023M1AXS"
+      ]
+    },
+    {
+      "no": 24,
+      "name_hanja": "蔘朮健脾湯",
+      "name_ko": "삼출건비탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 3.75,
+          "price": 91.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "산사",
+          "name_hanja": "山 査",
+          "amount_g": 3.75,
+          "price": 97.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지실",
+          "name_hanja": "枳 實",
+          "amount_g": 3,
+          "price": 130,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3,
+          "price": 100.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "사인",
+          "name_hanja": "砂仁",
+          "amount_g": 1.88,
+          "price": 70,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "신곡",
+          "name_hanja": "神 麯",
+          "amount_g": 1.88,
+          "price": 39.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥아",
+          "name_hanja": "麥芽",
+          "amount_g": 1.88,
+          "price": 37.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 39.52,
+      "reference_price": 1963,
+      "prescription_codes": [
+        "2024M1APD",
+        "2024M1AXS"
+      ]
+    },
+    {
+      "no": 25,
+      "name_hanja": "蔘胡芍藥湯",
+      "name_ko": "삼호작약탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 5.63,
+          "price": 152.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 3.75,
+          "price": 325.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지모",
+          "name_hanja": "知母",
+          "amount_g": 3.75,
+          "price": 101.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 3.75,
+          "price": 229.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 3,
+          "price": 81.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.13,
+          "price": 36.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 33.76,
+      "reference_price": 2128,
+      "prescription_codes": []
+    },
+    {
+      "no": 26,
+      "name_hanja": "三黃瀉心湯",
+      "name_ko": "삼황사심탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 11.25,
+          "price": 351.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 7.5,
+          "price": 203.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 3.75,
+          "price": 566.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.25,
+      "reference_price": 1271,
+      "prescription_codes": [
+        "2026M1APD"
+      ]
+    },
+    {
+      "no": 27,
+      "name_hanja": "生脈散",
+      "name_ko": "생맥산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 7.5,
+          "price": 459.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "오미자",
+          "name_hanja": "五味子",
+          "amount_g": 3.75,
+          "price": 181.3,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 15,
+      "reference_price": 1541,
+      "prescription_codes": [
+        "2027M1APD",
+        "2027M1AXS"
+      ]
+    },
+    {
+      "no": 28,
+      "name_hanja": "小柴胡湯(三禁湯)",
+      "name_ko": "소시호탕(삼금탕)",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 11.25,
+          "price": 976.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 7.5,
+          "price": 298.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 31.625,
+      "reference_price": 2596,
+      "prescription_codes": [
+        "2028M1APD",
+        "2028M1AXS"
+      ]
+    },
+    {
+      "no": 29,
+      "name_hanja": "小靑龍湯",
+      "name_ko": "소청룡탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "마황",
+          "name_hanja": "麻黃",
+          "amount_g": 5.63,
+          "price": 84.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 5.63,
+          "price": 188.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 5.63,
+          "price": 388.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "오미자",
+          "name_hanja": "五味子",
+          "amount_g": 5.63,
+          "price": 272.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "계지",
+          "name_hanja": "桂枝",
+          "amount_g": 3.75,
+          "price": 33.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "세신",
+          "name_hanja": "細辛",
+          "amount_g": 3.75,
+          "price": 315.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 3.75,
+          "price": 106.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 37.52,
+      "reference_price": 1510,
+      "prescription_codes": [
+        "2029M1APD",
+        "2029M1ATB",
+        "2029M1AXS"
+      ]
+    },
+    {
+      "no": 30,
+      "name_hanja": "升陽補胃湯",
+      "name_ko": "승양보위탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 5.63,
+          "price": 188.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 3.75,
+          "price": 141.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 3.75,
+          "price": 297.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 3.75,
+          "price": 181.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 1.88,
+          "price": 51,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "독활",
+          "name_hanja": "獨活",
+          "amount_g": 1.88,
+          "price": 58.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 1.88,
+          "price": 162.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 1.88,
+          "price": 79.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "목단피",
+          "name_hanja": "牧丹皮",
+          "amount_g": 1.88,
+          "price": 79.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 1.13,
+          "price": 38.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 1.13,
+          "price": 23.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "육계",
+          "name_hanja": "肉桂",
+          "amount_g": 0.75,
+          "price": 16.2,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 31.17,
+      "reference_price": 1380,
+      "prescription_codes": []
+    },
+    {
+      "no": 31,
+      "name_hanja": "柴梗半夏湯",
+      "name_ko": "시경반하탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 7.5,
+          "price": 651.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "괄루인",
+          "name_hanja": "栝樓仁",
+          "amount_g": 3.75,
+          "price": 64.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 3.75,
+          "price": 101.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 3.75,
+          "price": 138.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "청피",
+          "name_hanja": "靑皮",
+          "amount_g": 3,
+          "price": 78.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "행인",
+          "name_hanja": "杏仁",
+          "amount_g": 3,
+          "price": 56.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.5,
+          "price": 48.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 35.25,
+      "reference_price": 1575,
+      "prescription_codes": [
+        "2031M1APD"
+      ]
+    },
+    {
+      "no": 32,
+      "name_hanja": "柴胡桂枝湯",
+      "name_ko": "시호계지탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 7.5,
+          "price": 651.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "계지",
+          "name_hanja": "桂枝",
+          "amount_g": 3.75,
+          "price": 33.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 31.63,
+      "reference_price": 2281,
+      "prescription_codes": [
+        "2032M1APD"
+      ]
+    },
+    {
+      "no": 33,
+      "name_hanja": "柴胡疏肝湯",
+      "name_ko": "시호소간탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 4.5,
+          "price": 391,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 4.5,
+          "price": 85.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 3.75,
+          "price": 101.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "향부자",
+          "name_hanja": "香附子",
+          "amount_g": 3.75,
+          "price": 90.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 25.875,
+      "reference_price": 994,
+      "prescription_codes": [
+        "2033M1APD"
+      ]
+    },
+    {
+      "no": 34,
+      "name_hanja": "柴胡淸肝湯",
+      "name_ko": "시호청간탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 7.5,
+          "price": 651.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 5.63,
+          "price": 158,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 3.75,
+          "price": 149.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "청피",
+          "name_hanja": "靑皮",
+          "amount_g": 3.75,
+          "price": 97.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "연교",
+          "name_hanja": "連翹",
+          "amount_g": 3,
+          "price": 177,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 3,
+          "price": 111,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 36.01,
+      "reference_price": 2445,
+      "prescription_codes": [
+        "2034M1APD"
+      ]
+    },
+    {
+      "no": 35,
+      "name_hanja": "安胎飮",
+      "name_ko": "안태음",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 7.5,
+          "price": 265.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 5.63,
+          "price": 224,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3.75,
+          "price": 125.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "숙지황",
+          "name_hanja": "熱地黃",
+          "amount_g": 3.75,
+          "price": 177.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "사인",
+          "name_hanja": "砂仁",
+          "amount_g": 3.75,
+          "price": 140.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3,
+          "price": 111.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 3,
+          "price": 70,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.5,
+          "price": 48.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 39.375,
+      "reference_price": 1362,
+      "prescription_codes": []
+    },
+    {
+      "no": 36,
+      "name_hanja": "連翹敗毒散",
+      "name_ko": "연교패독산",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "연교",
+          "name_hanja": "連翹",
+          "amount_g": 2.63,
+          "price": 155.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "금은화",
+          "name_hanja": "金銀花",
+          "amount_g": 2.63,
+          "price": 204.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "형개",
+          "name_hanja": "荊芥",
+          "amount_g": 2.63,
+          "price": 62.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 2.63,
+          "price": 111.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 2.63,
+          "price": 208.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "독활",
+          "name_hanja": "獨活",
+          "amount_g": 2.63,
+          "price": 81.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 2.63,
+          "price": 227.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 2.63,
+          "price": 97.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 2.63,
+          "price": 71.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 2.63,
+          "price": 97.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 2.63,
+          "price": 88.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.63,
+          "price": 85.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "박하",
+          "name_hanja": "薄荷",
+          "amount_g": 2.63,
+          "price": 50.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 35.69,
+      "reference_price": 1567,
+      "prescription_codes": [
+        "2036M1APD",
+        "2036M1AXS"
+      ]
+    },
+    {
+      "no": 37,
+      "name_hanja": "五淋散",
+      "name_ko": "오림산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 7.5,
+          "price": 251.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 7.5,
+          "price": 210.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 1.88,
+          "price": 74.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.26,
+      "reference_price": 854,
+      "prescription_codes": [
+        "2037M1APD"
+      ]
+    },
+    {
+      "no": 38,
+      "name_hanja": "五積散",
+      "name_ko": "오적산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 7.5,
+          "price": 319.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "마황",
+          "name_hanja": "麻黃",
+          "amount_g": 3.75,
+          "price": 56.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 3,
+          "price": 72.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 3,
+          "price": 111,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 3,
+          "price": 81.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3,
+          "price": 102.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 3,
+          "price": 84.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 3,
+          "price": 100.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3,
+          "price": 101.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 2.63,
+          "price": 97.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 2.63,
+          "price": 84.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 2.63,
+          "price": 181.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "육계",
+          "name_hanja": "肉桂",
+          "amount_g": 2.63,
+          "price": 56.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.25,
+          "price": 72.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 50.27,
+      "reference_price": 1621,
+      "prescription_codes": [
+        "2038M1APD",
+        "2038M1ATB",
+        "2038M1AXS"
+      ]
+    },
+    {
+      "no": 39,
+      "name_hanja": "理中湯",
+      "name_ko": "이중탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 7.5,
+          "price": 1798.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 7.5,
+          "price": 265.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "건강",
+          "name_hanja": "乾薑",
+          "amount_g": 7.5,
+          "price": 212.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.25,
+      "reference_price": 2398,
+      "prescription_codes": [
+        "2039M1APD"
+      ]
+    },
+    {
+      "no": 40,
+      "name_hanja": "二陳湯",
+      "name_ko": "이진탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 7.5,
+          "price": 518.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 18.38,
+      "reference_price": 806,
+      "prescription_codes": [
+        "2040M1APD",
+        "2040M1ATB",
+        "2040M1AXS"
+      ]
+    },
+    {
+      "no": 41,
+      "name_hanja": "益胃升陽湯",
+      "name_ko": "익위승양탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 5.63,
+          "price": 199.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 3.75,
+          "price": 181.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 2.81,
+          "price": 674.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "신곡",
+          "name_hanja": "神 麯",
+          "amount_g": 2.81,
+          "price": 59.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 1.88,
+          "price": 63.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 1.88,
+          "price": 35.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 1.13,
+          "price": 42.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 1.13,
+          "price": 97.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 0.75,
+          "price": 29.9,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 23.65,
+      "reference_price": 1446,
+      "prescription_codes": [
+        "2041M1APD"
+      ]
+    },
+    {
+      "no": 42,
+      "name_hanja": "人蔘敗毒散",
+      "name_ko": "인삼패독산",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 3.75,
+          "price": 899.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 3.75,
+          "price": 297.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "독활",
+          "name_hanja": "獨活",
+          "amount_g": 3.75,
+          "price": 116.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 3.75,
+          "price": 325.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 3.75,
+          "price": 101.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 3.75,
+          "price": 138.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 3.75,
+          "price": 129.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "박하",
+          "name_hanja": "薄荷",
+          "amount_g": 0.94,
+          "price": 17.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 36.19,
+      "reference_price": 2314,
+      "prescription_codes": [
+        "2042M1APD",
+        "2042M1AXS"
+      ]
+    },
+    {
+      "no": 43,
+      "name_hanja": "茵蔯蒿湯",
+      "name_ko": "인진호탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "인진호",
+          "name_hanja": "茵蔯蒿",
+          "amount_g": 13.13,
+          "price": 292.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 13.13,
+          "price": 410.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 13.13,
+          "price": 368.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 39.39,
+      "reference_price": 1072,
+      "prescription_codes": [
+        "2043M1APD"
+      ]
+    },
+    {
+      "no": 44,
+      "name_hanja": "滋陰降火湯",
+      "name_ko": "자음강화탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 4.88,
+          "price": 163.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 4.5,
+          "price": 153.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "숙지황",
+          "name_hanja": "熱地黃",
+          "amount_g": 3.75,
+          "price": 177.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 3.75,
+          "price": 229.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 3,
+          "price": 81.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 2.63,
+          "price": 49.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지모",
+          "name_hanja": "知母",
+          "amount_g": 1.88,
+          "price": 50.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황백",
+          "name_hanja": "黃栢",
+          "amount_g": 1.88,
+          "price": 48.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 35.4,
+      "reference_price": 1249,
+      "prescription_codes": [
+        "2044M1APD",
+        "2044M1AXS"
+      ]
+    },
+    {
+      "no": 45,
+      "name_hanja": "調胃承氣湯",
+      "name_ko": "조위승기탕",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "대황",
+          "name_hanja": "大黃",
+          "amount_g": 15,
+          "price": 469.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "망초",
+          "name_hanja": "芒硝",
+          "amount_g": 7.5,
+          "price": 132.5,
+          "non_extracted": true
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 26.25,
+      "reference_price": 723,
+      "prescription_codes": [
+        "2045M1APD"
+      ]
+    },
+    {
+      "no": 46,
+      "name_hanja": "淸上蠲痛湯",
+      "name_ko": "청상견통탕",
+      "source": "濟衆新編",
+      "herbs": [
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 5.63,
+          "price": 224,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 3.75,
+          "price": 159.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "강활",
+          "name_hanja": "羌活",
+          "amount_g": 3.75,
+          "price": 297.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "독활",
+          "name_hanja": "獨活",
+          "amount_g": 3.75,
+          "price": 116.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 3.75,
+          "price": 159.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 3.75,
+          "price": 139.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 3.75,
+          "price": 120.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 3.75,
+          "price": 229.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "만형자",
+          "name_hanja": "蔓荊子",
+          "amount_g": 1.88,
+          "price": 56.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감국",
+          "name_hanja": "甘菊",
+          "amount_g": 1.88,
+          "price": 74,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "세신",
+          "name_hanja": "細辛",
+          "amount_g": 1.13,
+          "price": 94.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.13,
+          "price": 36.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 41.65,
+      "reference_price": 1837,
+      "prescription_codes": [
+        "2046M1APD",
+        "2046M1AXS"
+      ]
+    },
+    {
+      "no": 47,
+      "name_hanja": "淸署益氣湯",
+      "name_ko": "청서익기탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 5.63,
+          "price": 239.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황기",
+          "name_hanja": "黃芪",
+          "amount_g": 3.75,
+          "price": 181.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 3.75,
+          "price": 141.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 1.88,
+          "price": 449.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 1.88,
+          "price": 66.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 1.88,
+          "price": 35.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "신곡",
+          "name_hanja": "神 麯",
+          "amount_g": 1.88,
+          "price": 39.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "택사",
+          "name_hanja": "澤瀉",
+          "amount_g": 1.88,
+          "price": 50.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황백",
+          "name_hanja": "黃栢",
+          "amount_g": 1.13,
+          "price": 29.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 1.13,
+          "price": 38.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "갈근",
+          "name_hanja": "葛根",
+          "amount_g": 1.13,
+          "price": 23.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "청피",
+          "name_hanja": "靑皮",
+          "amount_g": 1.13,
+          "price": 29.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "맥문동",
+          "name_hanja": "麥門冬",
+          "amount_g": 1.13,
+          "price": 68.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.13,
+          "price": 36.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 29.31,
+      "reference_price": 1431,
+      "prescription_codes": [
+        "2047M1APD"
+      ]
+    },
+    {
+      "no": 48,
+      "name_hanja": "淸胃散",
+      "name_ko": "청위산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "승마",
+          "name_hanja": "升麻",
+          "amount_g": 7.5,
+          "price": 283.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "목단피",
+          "name_hanja": "牧丹皮",
+          "amount_g": 5.63,
+          "price": 238.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 3.75,
+          "price": 127.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 3.75,
+          "price": 566.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 3.75,
+          "price": 101.8,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 24.38,
+      "reference_price": 1318,
+      "prescription_codes": []
+    },
+    {
+      "no": 49,
+      "name_hanja": "八物湯",
+      "name_ko": "팔물탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "인삼",
+          "name_hanja": "人蔘",
+          "amount_g": 4.5,
+          "price": 1078.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 4.5,
+          "price": 159.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "복령",
+          "name_hanja": "茯苓",
+          "amount_g": 4.5,
+          "price": 152.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 4.5,
+          "price": 145.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "숙지황",
+          "name_hanja": "熱地黃",
+          "amount_g": 4.5,
+          "price": 212.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 4.5,
+          "price": 150.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 4.5,
+          "price": 167.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 4.5,
+          "price": 153.2,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 36,
+      "reference_price": 2221,
+      "prescription_codes": [
+        "2049M1APD",
+        "2049M1AXS"
+      ]
+    },
+    {
+      "no": 50,
+      "name_hanja": "平胃散",
+      "name_ko": "평위산",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 7.5,
+          "price": 319.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 5.25,
+          "price": 99.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 3.75,
+          "price": 91.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.25,
+          "price": 72.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "대추",
+          "name_hanja": "大棗",
+          "amount_g": 2,
+          "price": 75,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 22.25,
+      "reference_price": 685,
+      "prescription_codes": [
+        "2050M1APD",
+        "2050M1ATB",
+        "2050M1AXS"
+      ]
+    },
+    {
+      "no": 51,
+      "name_hanja": "杏蘇湯(散)",
+      "name_ko": "행소탕(산)",
+      "source": "東醫寶鑑",
+      "herbs": [
+        {
+          "name_ko": "행인",
+          "name_hanja": "杏仁",
+          "amount_g": 3.75,
+          "price": 71,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "자소엽",
+          "name_hanja": "紫蘇葉",
+          "amount_g": 3.75,
+          "price": 87.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "상백피",
+          "name_hanja": "桑白皮",
+          "amount_g": 3.75,
+          "price": 92.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "반하",
+          "name_hanja": "半夏",
+          "amount_g": 3.75,
+          "price": 259.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "절패모",
+          "name_hanja": "浙貝母",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백출",
+          "name_hanja": "白朮",
+          "amount_g": 3.75,
+          "price": 133,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "오미자",
+          "name_hanja": "五味子",
+          "amount_g": 3.75,
+          "price": 181.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 2.5,
+          "price": 44.1,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 34.38,
+      "reference_price": 1133,
+      "prescription_codes": [
+        "2051M1APD",
+        "2051M1AXS"
+      ]
+    },
+    {
+      "no": 52,
+      "name_hanja": "香砂平胃散",
+      "name_ko": "향사평위산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "창출",
+          "name_hanja": "蒼朮",
+          "amount_g": 7.5,
+          "price": 319.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "진피",
+          "name_hanja": "陳皮",
+          "amount_g": 3.75,
+          "price": 71.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "향부자",
+          "name_hanja": "香附子",
+          "amount_g": 3.75,
+          "price": 90.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지실",
+          "name_hanja": "枳 實",
+          "amount_g": 3,
+          "price": 130,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "곽향",
+          "name_hanja": "藿香",
+          "amount_g": 3,
+          "price": 46.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "후박",
+          "name_hanja": "厚朴",
+          "amount_g": 2.63,
+          "price": 63.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "사인",
+          "name_hanja": "砂仁",
+          "amount_g": 2.63,
+          "price": 97.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "목향",
+          "name_hanja": "木香",
+          "amount_g": 1.88,
+          "price": 45.8,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생강",
+          "name_hanja": "生薑",
+          "amount_g": 1.5,
+          "price": 26.6,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 31.52,
+      "reference_price": 953,
+      "prescription_codes": [
+        "2052M1APD",
+        "2052M1ATB",
+        "2052M1AXS"
+      ]
+    },
+    {
+      "no": 53,
+      "name_hanja": "黃金芍藥湯",
+      "name_ko": "황금작약탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 7.5,
+          "price": 298.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 7.5,
+          "price": 251.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 3.75,
+          "price": 121.4,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 18.75,
+      "reference_price": 671,
+      "prescription_codes": []
+    },
+    {
+      "no": 54,
+      "name_hanja": "黃連解毒湯",
+      "name_ko": "황련해독탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 4.69,
+          "price": 708.2,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 4.69,
+          "price": 186.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황백",
+          "name_hanja": "黃栢",
+          "amount_g": 4.69,
+          "price": 121.3,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 4.69,
+          "price": 131.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 18.76,
+      "reference_price": 1148,
+      "prescription_codes": [
+        "2054M1APD",
+        "2054M1ATB"
+      ]
+    },
+    {
+      "no": 55,
+      "name_hanja": "荊芥連翹湯",
+      "name_ko": "형개연교탕",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "형개",
+          "name_hanja": "荊芥",
+          "amount_g": 2.63,
+          "price": 62.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "연교",
+          "name_hanja": "連翹",
+          "amount_g": 2.63,
+          "price": 155.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "방풍",
+          "name_hanja": "防風",
+          "amount_g": 2.63,
+          "price": 111.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 2.63,
+          "price": 89.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "천궁",
+          "name_hanja": "川芎",
+          "amount_g": 2.63,
+          "price": 97.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "시호",
+          "name_hanja": "柴胡",
+          "amount_g": 2.63,
+          "price": 227.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 2.63,
+          "price": 71.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 2.63,
+          "price": 104.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "백지",
+          "name_hanja": "白芷",
+          "amount_g": 2.63,
+          "price": 84.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 2.63,
+          "price": 97.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 2.63,
+          "price": 87.9,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 2.63,
+          "price": 73.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 1.88,
+          "price": 60.7,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 33.44,
+      "reference_price": 1323,
+      "prescription_codes": [
+        "2055M1APD",
+        "2055M1AXS"
+      ]
+    },
+    {
+      "no": 56,
+      "name_hanja": "回春涼隔散",
+      "name_ko": "회춘양격산",
+      "source": "方藥合編",
+      "herbs": [
+        {
+          "name_ko": "연교",
+          "name_hanja": "連翹",
+          "amount_g": 4.5,
+          "price": 265.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황금",
+          "name_hanja": "黃芩",
+          "amount_g": 2.63,
+          "price": 104.5,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "치자",
+          "name_hanja": "梔子",
+          "amount_g": 2.63,
+          "price": 73.7,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "길경",
+          "name_hanja": "桔梗",
+          "amount_g": 2.63,
+          "price": 97.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "황련",
+          "name_hanja": "黃連",
+          "amount_g": 2.63,
+          "price": 396.6,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "박하",
+          "name_hanja": "薄荷",
+          "amount_g": 2.63,
+          "price": 50.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "당귀",
+          "name_hanja": "當歸",
+          "amount_g": 2.63,
+          "price": 89.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "생지황",
+          "name_hanja": "生地黃",
+          "amount_g": 2.63,
+          "price": 71.4,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "지각",
+          "name_hanja": "枳殼",
+          "amount_g": 2.63,
+          "price": 71.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "감초",
+          "name_hanja": "甘草",
+          "amount_g": 2.63,
+          "price": 85.1,
+          "non_extracted": false
+        },
+        {
+          "name_ko": "작약",
+          "name_hanja": "芍藥",
+          "amount_g": 2.63,
+          "price": 87.9,
+          "non_extracted": false
+        }
+      ],
+      "total_herb_g": 30.8,
+      "reference_price": 1392,
+      "prescription_codes": [
+        "2056M1APD"
+      ]
+    }
+  ]
+}
