@@ -28,7 +28,7 @@
   "plugins": {
     "updater": {
       "endpoints": [
-        "https://github.com/OWNER/next-chart/releases/latest/download/latest.json"
+        "https://github.com/spynos/next-chart/releases/latest/download/latest.json"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQzOTUyMjVBOUI2RDAxMTIKUldRU0FXMmJXaUtWMDEzT0NqaVlQQjc5WUZoRFNZNUtwR3ZlVUhEbVowMWxUcXR4OXpJTWFycWgK"
     }

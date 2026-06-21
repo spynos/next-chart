@@ -46,9 +46,9 @@ GitHub Actions(`windows-latest`)로 자동 빌드한다(러너에 MSVC·WebView2
 사용자 확인형(무음 아님). 앱 내 **[백업] 화면 → 업데이트** 패널에서 확인·설치한다.
 
 - 서명: ed25519 키로 업데이트 아티팩트를 서명, 공개키는 `tauri.conf.json`에 내장.
-- 배포: `v*` 태그 푸시 → CI가 빌드·서명·GitHub Release 게시(`latest.json` 포함).
+- 배포: `main` 푸시 → CI가 patch 버전 자동 증가·태그 후 빌드·서명·GitHub Release 게시(`latest.json` 포함).
 - **저장소 Secrets 필요**: `TAURI_SIGNING_PRIVATE_KEY`(= `~/.tauri/next-chart.key` 내용),
-  `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`. `tauri.conf.json`의 endpoints `OWNER`를 실제 GitHub 계정으로 교체.
+  `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`. (업데이터 endpoints는 `spynos/next-chart`로 설정됨.)
 - **선결 과제**: 배포 전 OS 코드서명 필요 — macOS Apple Developer ID+공증, Windows Authenticode 인증서.
   (없으면 설치·업데이트 시 Gatekeeper/SmartScreen 경고)
 - 업데이트 체크는 유일한 외부 호출이며 **환자 데이터는 전송하지 않는다.**
